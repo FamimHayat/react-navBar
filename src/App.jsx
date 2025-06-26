@@ -1,8 +1,17 @@
 import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route >
+                        
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 
